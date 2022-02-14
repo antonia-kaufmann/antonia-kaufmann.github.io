@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "Fähigkeiten": [
+  "skills": [
     {
       "name": "Sprachen und Frameworks",
       "level": "",
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "Ausbildung": [
+  "education": [
     {
       "institution": "Martin-Luther-Universität Halle-Wittenberg, Halle (Saale)",
       "area": "Studium Lehramt an Gymnasien für Mathematik und Chemie",
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "Praxiserfahrung": [
+  "work": [
     {
       "company": "Martin-Luther-Universität Halle-Wittenberg",
       "position": "Wissenschaftliche Mitarbeiterin",
@@ -93,7 +93,7 @@
       ]
     }
   ],
-  "Stipendien": [
+  "awards": [
     {
       "title": "Deutschlandstipendium",
       "date": "10.2018–08.2019",
