@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Antonia Kaufmann",
-    "label": "Student",
-    "picture": "https://antonia-kaufmann.github.io/images/antonia.jpeg",
+    "label": "Wissenschaftliche Mitarbeiterin in der Numerischen Mathematik",
+    "picture": "https://antonia-kaufmann.github.io/images/antonia.png",
     "email": "antoniakaufmann11@gmail.com",
     "phone": "",
     "website": "https://antonia-kaufmann.github.io",
@@ -41,12 +41,12 @@
     {
       "name": "internet of things",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "",
+        ""
       ]
     },
     {
-      "name": "data mining",
+      "name": "",
       "keywords": [
       ]
     },
