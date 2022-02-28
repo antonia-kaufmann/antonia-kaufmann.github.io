@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/double_pendulum_pygame.png
 title: Multipendel
-permalink: projects/double_pendulum_pygame
+permalink: antonia-kaufmann/double_pendulum_pygame
 # All dates must be YYYY-MM-DD format!
 date: 2022-02-28
 labels:
@@ -91,6 +91,8 @@ ein dazu äquivalentes System erster Ordnung.
 
 
 ![Double pendulum](../images/double-pendulum.gif)
+
+[Link zum Projekt](https://github.com/antonia-kaufmann/double_pendulum_pygame)
 
 
 
