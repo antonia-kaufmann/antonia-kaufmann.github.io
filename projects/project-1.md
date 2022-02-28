@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/double_pendulum_pygame.png
 title: Multipendel
-permalink: antonia-kaufmann/double_pendulum_pygame
+permalink: projects/multipendel
 # All dates must be YYYY-MM-DD format!
 date: 2022-02-28
 labels:
