@@ -14,9 +14,9 @@ summary: Ich stelle einige Simulationen eines Doppelpendels vor.
 ---
 
 In Vorbereitung auf meine Doktorarbeit habe ich mich mit Mehrkörpermodellen auseinandergesetzt. 
-Dabei habe ich mit Multipendeln, also Ketten von $$N \geq 2$$ Punktmassen $$m$, die durch masselose Stäbe miteinander verbunden sind.
+Dabei habe ich mit Multipendeln, also Ketten von $$N \geq 2$$ Punktmassen $$m$$, die durch masselose Stäbe miteinander verbunden sind.
 
-## Doppelpendel $$N=2$
+## Doppelpendel $$N=2$$
 
 ### Bewegungsgleichung
 
@@ -66,7 +66,7 @@ q   \\
 \dot{\alpha_1}  \\ 
 \alpha_2   \\
 \dot{\alpha_2}
-\end{array}\right).$
+\end{array}\right).$$
 Dann ist 
 $$\left( \begin{array}{cccc}
 1&0&0&0\\
