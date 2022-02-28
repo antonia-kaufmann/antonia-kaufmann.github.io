@@ -14,9 +14,9 @@ summary: Ich stelle einige Simulationen eines Doppelpendels vor.
 ---
 
 In Vorbereitung auf meine Doktorarbeit habe ich mich mit Mehrkörpermodellen auseinandergesetzt. 
-Dabei habe ich mit Multipendeln, also Ketten von $N \geq 2$ Punktmassen $m$, die durch masselose Stäbe miteinander verbunden sind.
+Dabei habe ich mit Multipendeln, also Ketten von $$N \geq 2$$ Punktmassen $$m$, die durch masselose Stäbe miteinander verbunden sind.
 
-## Doppelpendel $N=2$
+## Doppelpendel $$N=2$
 
 ### Bewegungsgleichung
 
@@ -24,20 +24,20 @@ Dabei habe ich mit Multipendeln, also Ketten von $N \geq 2$ Punktmassen $m$, die
   <img class="ui image" src="../images/double_pendulum_scheme.png">
 </div>
 
-Wir betrachten ein Doppelpendel mit Punktmassen $m_1$, die durch einen Stab der Länge $l_1$ mit dem Koordinatenursprung verbunden ist, und $m_2$, die durch einen Stab der Länge $l_2$ an $m_1$ befestigt ist.
-Den Zustand eines Doppelpendels für einen Zeitpunkt $t$ kann man eindeutig mittels der Winkel $\alpha_1$ und $\alpha_2$. 
-Fasst man diese beiden Winkel in einem Vektor $q:=(\alpha_1,\alpha_2)^T$ zusammen, so kann man die Bewegung des Doppelpendels in Abhängigkeit des Vektors $q$ bzw. dessen Ableitungen nach der Zeit darstellen.
+Wir betrachten ein Doppelpendel mit Punktmassen $$m_1$$, die durch einen Stab der Länge $$l_1$$ mit dem Koordinatenursprung verbunden ist, und $$m_2$$, die durch einen Stab der Länge $$l_2$$ an $$m_1$$ befestigt ist.
+Den Zustand eines Doppelpendels für einen Zeitpunkt $$t$$ kann man eindeutig mittels der Winkel $$\alpha_1$$ und $$\alpha_2$$. 
+Fasst man diese beiden Winkel in einem Vektor $$q:=(\alpha_1,\alpha_2)^T$$ zusammen, so kann man die Bewegung des Doppelpendels in Abhängigkeit des Vektors $$q$$ bzw. dessen Ableitungen nach der Zeit darstellen.
 Die Herleitung erfolgt mit den sogenannten *Euler-Lagrange-Gleichungen*
 $$\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial L}{\partial \dot{q}_k}(q,\dot{q})\right)-\frac{\partial L}{\partial q_k}(q), \qquad (k=1,2).$$
 Hier bezeichne $$L(q,\dot{q}):=T(q,\dot{q})-U(q)$$
-die Lagrange-Funktion, die als Differenz aus kinetischer Energie $T(q,\dot{q})$ und potenzieller Energie $U(q)$ definiert ist.
+die Lagrange-Funktion, die als Differenz aus kinetischer Energie $$T(q,\dot{q})$$ und potenzieller Energie $$U(q)$$ definiert ist.
 Die Punkte über den Variablen bezeichnen dabei stets Ableitungen nach der Zeit.
-Geht man davon aus, dass $m_1=m_2=:m$ und $l_1=l_2=:l$ ist, so kann man keinetische und potenzielle Energie schreiben als
+Geht man davon aus, dass $$m_1=m_2=:m$$ und $$l_1=l_2=:l$$ ist, so kann man keinetische und potenzielle Energie schreiben als
 
 $$T(q,\dot{q})=\frac{ml^2}{2}\left(2\dot{\alpha}_1^2+2\cos(\alpha_2-\alpha_1)\dot{\alpha}_1\dot{\alpha}_2+\dot{\alpha}_2^2\right)$$
 und 
 $$U(q)=-mgl(2\cos(\alpha_1)+\cos(\alpha_2)),$$
-wobei $g=9.81\frac{m}{s^2}$ die Fallbeschleunigung ist.
+wobei $$g=9.81\frac{m}{s^2}$$ die Fallbeschleunigung ist.
 
 Setzt man dies in die Euler-Lagrange-Gleichungen ein, so erhält man die Bewegungsgleichungen
 
@@ -57,7 +57,7 @@ $$\left( \begin{array}{cc}
 Dies ist ein lineares Differentialgleichungssystem 2. Ordnung in impliziter Darstellung.
 
 Um dieses Differentialgleichungssystem mit einem Runge-Kutta-Verfahren numerisch lösen zu können, muss man es in ein äquivalentes System erster Ordnung transformieren.
-Setze dazu $z:=\left( \begin{array}{c}
+Setze dazu $$z:=\left( \begin{array}{c}
 q   \\ 
 \dot{q}  \\
 \end{array}\right)
