@@ -6,7 +6,7 @@
     "email": "antoniakaufmann11@gmail.com",
     "phone": "",
     "website": "https://antonia-kaufmann.github.io",
-    "summary": "Ich bin eine Promotionsstudentin in der Numerischen Mathematik am Institut für Mathematik der Martin-Luther-Universität Halle-Wittenberg.",
+    "summary": "Ich bin eine Promotionsstudentin in der Arbeitsgruppe 'Numerischen Mathematik' am Institut für Mathematik der Martin-Luther-Universität Halle-Wittenberg.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,7 +18,7 @@
       {
         "network": "github",
         "username": "antonia-kaufmann",
-        "url": "http://github.com/changeme"
+        "url": "https://github.com/antonia-kaufmann"
       },
       {
         "network": "",
@@ -39,7 +39,8 @@
   },
   "interests": [
     {
-      "name": "Nichtglatte dynamische Systeme"
+      "name": "Nichtglatte dynamische Systeme",
+      "name": "Zeitdiskrete Integration"
     }
   ],
   "skills": [
