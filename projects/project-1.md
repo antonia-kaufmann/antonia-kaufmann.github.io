@@ -92,7 +92,7 @@ im Folgenden wurden für die Anfangsbedingungen
 $$ z_0:= z(t_0=0) = (\frac{\pi}{2},0,0,0)^\top$$
 mittels verschiedener Engines Animationen des Doppelpendels erstellt:
 
-1. mittels 'Matplotlib'
+1. mittels `Matplotlib`
 
 ![Double pendulum](../images/double-pendulum3_matplotlib.gif)
 
@@ -101,18 +101,17 @@ mittels verschiedener Engines Animationen des Doppelpendels erstellt:
 
 2. mittels `Pygame`
 
-
 ![Double pendulum](../images/double-pendulum.gif)
 
 [Link zum Projekt](https://github.com/antonia-kaufmann/double_pendulum_pygame)
 
 
 
-3. mittels der Animations-Engine 'Manim' vom YouTuber [3Blue1Brown](https://www.3blue1brown.com/)
+3. mittels der Animations-Engine `Manim` vom YouTuber [3Blue1Brown](https://www.3blue1brown.com/)
 
-Mittels Manim werden Videos erstellt, beispielsweise kann man damit Mathematik-Erklärvideos produzieren.
+Mittels `Manim` werden Videos erstellt, beispielsweise kann man damit Mathematik-Erklärvideos produzieren.
 
-![Double pendulum](../images/double-pendulum2.gif)
+![Double pendulum](../images/double-pendulum_manim.gif)
 
 [Link zum Projekt](https://github.com/antonia-kaufmann/double_pendulum_manim)
 
