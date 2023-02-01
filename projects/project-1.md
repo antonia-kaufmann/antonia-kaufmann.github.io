@@ -14,18 +14,18 @@ summary: Ich stelle einige Simulations-Engines eines Doppelpendels vor.
 ---
 
 In Vorbereitung auf meine Doktorarbeit habe ich mich mit Mehrkörpermodellen auseinandergesetzt. 
-Dabei habe ich mit Multipendeln, also Ketten von $N \geq 2$ Punktmassen $m_1,\dots,m_N$, die durch masselose Stäbe miteinander verbunden sind.
+Dabei habe ich mit Multipendeln, also Ketten von $$N \geq 2$$ Punktmassen $$m_1,\dots,m_N$$, die durch masselose Stäbe miteinander verbunden sind.
 
 ## Doppelpendel $$N=2$$
 
 ### Bewegungsgleichung
-<p align="center">
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/double_pendulum_scheme.png">
+  <p align="center">
+    <img class="ui image" src="../images/double_pendulum_scheme.png">
+  </p> 
 </div>
-</p>
 
-Wir betrachten ein Doppelpendel mit Punktmassen $m_1$, die durch einen Stab der Länge $$l_1$$ mit dem Koordinatenursprung verbunden ist, und $m_2$, die durch einen Stab der Länge $l_2$ an $m_1$ befestigt ist.
+Wir betrachten ein Doppelpendel mit Punktmassen $$m_1$$, die durch einen Stab der Länge $$l_1$$ mit dem Koordinatenursprung verbunden ist, und $$m_2$$, die durch einen Stab der Länge $$l_2$$ an $$m_1$$ befestigt ist.
 Den Zustand eines Doppelpendels für einen Zeitpunkt $$t$$ ist eindeutig mittels der Winkel $$\alpha_1$$ und $$\alpha_2$$ bestimmt. 
 Fasst man diese beiden Winkel in einem Vektor $$q:=(\alpha_1,\alpha_2)^\top$$ zusammen, so kann man die Bewegung des Doppelpendels in Abhängigkeit des Vektors $$q$$ bzw. dessen Ableitungen nach der Zeit darstellen.
 Die Herleitung erfolgt mit den sogenannten *Euler-Lagrange-Gleichungen*
